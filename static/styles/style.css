@@ -12,7 +12,7 @@ textarea {
     font-family: "Anek Devanagari", sans-serif;
 }
 
-/* Tema Claro */
+/* LIGHT THEME SETTING */
 body.light-theme {
     background-color: #ffffff;
     color: #000000;
@@ -29,7 +29,7 @@ body.light-theme .blinking {
     transition: color 0.3s ease-in-out;
 }
 
-/* Tema Escuro */
+/* DARK THEME SETTINGS */
 body.dark-theme {
     background-color: #161616;
     color: #ffffff;
@@ -203,7 +203,7 @@ main .lang-and-tech {
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    max-width: 800px; /* evita que os itens fiquem muito espalhados em telas largas */
+    max-width: 800px; /* evitar items muito espalhados (define uma largura máxima) */
 }
   
 .lang-and-tech-item {
@@ -246,7 +246,7 @@ main .lang-and-tech {
     transform: translateX(0);
 }
   
-  /* Animação piscante para underline e dois-pontos */
+  /* Animação piscante para underline */
 .blinking {
     color: #fff;
     font-weight: bold;
